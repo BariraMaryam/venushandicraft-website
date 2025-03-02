@@ -1,0 +1,465 @@
+ <!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brass Handicrafts - Product Page</title>
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="../images/1stlogo.png " alt="Venus Handicrafts Logo">
+        </div>
+
+        <ul id="menuList">
+            <a href="/Home Page/home.html">Home</a>
+            <a href="../About section/about.html">About Us</a>
+            <a href="../Gallery/gallery.html">Gallery</a>
+            <a href="../Venus Handicraft Product Page/productscategory.html">Handicraft Products</a>
+            <a href="../Contact US Page/contact.html">Contact Us</a>
+        </ul>
+
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+
+    <header>
+        <h1>Brass Handicrafts</h1>
+        <p>Explore our premium range of handcrafted brass products.</p>
+    </header>
+    <section id="products">
+        <div class="products-grid">
+
+            <div class="product-card">
+                <img src="/Venus Handicraft Product Page/images/brass1.jpg" alt="Brass Candle Holder">
+                <h3>Brass Candle Holder</h3>
+                <p>Price: $60</p>
+                <a href="/Venus Handicraft Product Page/product-detail-pages/brass-product1.html" class="btn">View Details</a>
+            </div>
+
+            <div class="product-card">
+                <img src="/Venus Handicraft Product Page/images/brass2.jpg" alt="Brass Clock">
+                <h3>Brass Clock</h3>
+                <p>Price: $80</p>
+                <a href="/Venus Handicraft Product Page/product-detail-pages/brass-product2.html" class="btn">View Details</a>
+            </div>
+
+            <div class="product-card">
+                <img src="/Venus Handicraft Product Page/images/brass3.jpg" alt="Brass Flower Vase">
+                <h3>Brass Flower Vase</h3>
+                <p>Price: $50</p>
+                <a href="/Venus Handicraft Product Page/product-detail-pages/brass-product3.html" class="btn">View Details</a>
+            </div>
+
+            <div class="product-card">
+                <img src="/Venus Handicraft Product Page/images/brass4.jpg" alt="Brass Jewelry Box">
+                <h3>Brass Jewelry Box</h3>
+                <p>Price: $100</p>
+                <a href="/Venus Handicraft Product Page/product-detail-pages/brass-product4.html" class="btn">View Details</a>
+            </div>
+
+            <div class="product-card">
+                <img src="/Venus Handicraft Product Page/images/brass5.jpg" alt="Brass Table Lamp">
+                <h3>Brass Table Lamp</h3>
+                <p>Price: $120</p>
+                <a href="/Venus Handicraft Product Page/product-detail-pages/brass-product5.html" class="btn">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>Celebrating tradition & creativity with exquisite handmade art.
+                Handicrafts embody the essence of human creativity, skill, and cultural heritage. Here are some
+                insightful quotes that capture the spirit of handicrafts
+            </p>
+
+        </div>
+        <div class="footer-section">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="/About section/about.html">About Us</a></li>
+                <li><a href="/Handicraft contact page/handicraftcontactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>HandiCrafts Products</h3>
+            <ul>
+                <li><a href="#">Product Category</a></li>
+                <li><a href="#">Iron Handicraft</a></li>
+                <li><a href="#">Glass Handicraft</a></li>
+                <li><a href="#">Homedecor</a></li>
+                <li><a href="#">Handicraft Decoratives</a></li>
+                <li><a href="#">Candle Assesories</a></li>
+
+
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>CONTACT</h3>
+            <ul class="contact-list">
+                <li><i class="fas fa-map-marker-alt icon"></i> 123 Street, New York</li>
+                <li><i class="fas fa-envelope icon"></i> info@example.com</li>
+                <li><i class="fas fa-phone icon"></i> +012 345 67890</li>
+            </ul> <br>
+            <div class="footer-input">
+                <input type="text" name="text" class="input">
+                <label for="" class="footer-label">Enter Name</label>
+            </div> <br>
+            <div class="footer-input">
+                <input type="text" name="text" class="input">
+                <label for="" class="footer-label">Enter Email</label>
+            </div>
+            <br>
+            <button class="footer-button">Subscribe</button>
+        </div>
+
+
+
+
+</body>
+<script>
+    function toggleMenu() {
+        document.getElementById("menuList").classList.toggle("show");
+    }
+</script>
+
+</body>
+</html>
+<style>
+    /* Global Styles */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FF7E5F;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.logo img {
+    height: 120px;
+}
+
+ul#menuList {
+    display: flex;
+    gap: 20px;
+}
+
+ul#menuList a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    transition: 0.3s;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+nav ul a:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    ul#menuList {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #FF7E5F;
+        z-index: 2222222222222;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    ul#menuList.show {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+
+
+header {
+        color: #FF7E5F;
+        text-align: center;
+        padding: 20px 10px;
+    }
+    header h1 {
+        font-size: 2.5rem;
+        margin: 10px 0;
+    }
+    header p {
+        font-size: 1.3rem;
+        color: #333;
+        margin: 0;
+    }
+
+    .products-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        padding: 40px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .product-card {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.product-card:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+.product-card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.product-card:hover img {
+    transform: scale(1.05);
+    filter: brightness(0.6);
+}
+
+.product-card h3,
+.product-card p,
+.product-card .btn {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    margin: 10px 0;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.product-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.product-card p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.product-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(250, 112, 77, 0.9);
+    border: 1px solid #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.product-card .btn:hover {
+    background-color: rgba(255, 180, 123, 0.9);
+    transform: scale(1.05);
+}
+
+.product-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: background 0.3s ease;
+}
+
+.product-card:hover::before {
+    background: rgba(0, 0, 0, 0.3); /* Slightly darker overlay on hover */
+}
+    footer {
+    background-color: #FF7E5F;
+    color: #fff;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer .footer-section {
+    flex: 1 1 200px;
+}
+
+footer h3 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+footer ul li a:hover {
+    color: #FEB47B;
+}
+
+footer .contact-list .icon {
+    color: #FEB47B;
+    margin-right: 10px;
+}
+
+
+.footer-input {
+    position: relative;
+}
+
+.input {
+    border: solid 1.5px #c92222;
+    border-radius: 1rem;
+    background: rgb(240, 233, 233);
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-label {
+    position: absolute;
+    left: 15px;
+    color: black;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:focus,
+input:valid {
+    outline: none;
+    border: 1.5px solid #FF7E5F;
+}
+
+.input:focus~label,
+input:valid~label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #f87251cd;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 8px;
+}
+
+.footer-button {
+
+    background-color: #FF5733;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #FF5733, 0 0 25px #FF5733;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.footer-button:hover {
+    background-color: #eab8718c;
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #FF5733,
+        0 0 25px #FF5733, 0 0 50px #FF5733,
+        0 0 100px #FF5733, 0 0 200px #FF5733;
+}
+
+.footer-button:active {
+    transform: scale(1);
+}
+
+
+.copy-right {
+    text-align: center;
+    padding: 10px;
+    background-color: #f2613d;
+    color: #fff;
+}
+
+
+
+@media (max-width: 768px) {
+        header h1 {
+            font-size: 2rem;
+        }
+        header p {
+            font-size: 1rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .product-card h3 {
+            font-size: 1.2rem;
+        }
+        .product-card p {
+            font-size: 0.9rem;
+        }
+    }
+</style>
